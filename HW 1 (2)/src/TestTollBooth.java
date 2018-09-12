@@ -3,8 +3,9 @@ public class TestTollBooth {
 
         //Truck truck1 = new fordTruck(5,12000);
         //Truck dodgeTruck = new dodgeTruck(5,12000);
-        TruckType dodgeTruck = new dodgeTruck(7,1100);
+        TruckType dodgeTruck = new dodgeTruck(7,13000);
         TruckType truck1 = new fordTruck(5,12000);
+        TruckType truck2 = new fordTruck(5,15000);
 
 
         System.out.println("Axles 1- "+truck1.getAxles());
@@ -19,12 +20,16 @@ public class TestTollBooth {
         //tollBooth booth = new HammondTollBooth();
 
         TollBoothType booth = new HammondTollBooth();
-        System.out.println("calc toll: " + booth.calculateToll(truck1));
+        //System.out.println("calc toll: " + booth.calculateToll(truck1));
+        booth.calculateToll(truck1);
+        booth.calculateToll(truck2);
         //booth.truckArrival();
 
         booth.truckArrival(truck1);
+        booth.truckArrival(truck2);
         booth.displayData();
         System.out.println("rgdhhh");
+        booth.receiptOfCollection();
         booth.receiptOfCollection();
 
         System.out.println("/////////////////////////////////////");
@@ -32,12 +37,13 @@ public class TestTollBooth {
         System.out.println("dodge Axles 1- "+dodgeTruck.getAxles());
         System.out.println("dodge hWeight 2- "+dodgeTruck.getWeight());
 
-        System.out.println("dodge calc toll: " + booth.calculateToll(dodgeTruck));
+        //System.out.println("dodge calc toll: " + booth.calculateToll(dodgeTruck));
+        booth.calculateToll(dodgeTruck);
         //booth.truckArrival();
 
         booth.truckArrival(dodgeTruck);
         booth.displayData();
-        System.out.println("ttttttttttttttttttt");
+        System.out.println("/////////////////////////////////");
         booth.receiptOfCollection();
 
 

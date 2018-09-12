@@ -1,18 +1,25 @@
-import java.lang.annotation.Inherited;
 
 //public class HammondTollBooth extends tollBooth {
 public class HammondTollBooth implements TollBoothType {
 
 
-    private String receipts = "";
+    //private String receipts = "";
+
+    /**
+     * Total amount of toll that trucks have paid as they came to the tollbooth
+     */
     private int totalToll = 0;
 
-    private int kgInTon = 1000;
-    private int tollPerAxel = 5;
-    private int tollPerTon = 10;
-
+    /**
+     * The toll that trucks have to pay as they came to the tollbooth
+     */
     private int tollDue = 0;
-    int truckCounter = 0;
+
+
+    /**
+     * The total number of trucks that comes by the tollbooth
+     */
+    private int truckCounter = 0;
 
 
     //int axles = 0;
@@ -20,14 +27,13 @@ public class HammondTollBooth implements TollBoothType {
 
     //Truck truckInfo;
 
-    TruckType truckType;
+    //TruckType truckType;
 
 
     /**
      * When the cash drawer is removed from its cradle, the receipt is displayed on the screen.
      * with the total tollbooth toll and number of trucks that came to the tollbooth and resets
      * total receipts and and number of trucks that came by the tollbooth
-     *
      */
     @Override
     public void receiptOfCollection() {
@@ -48,34 +54,18 @@ public class HammondTollBooth implements TollBoothType {
 
     /**
      * Displays the tollbooth toll total and count of trucks that have come to the tollbooth
-     *
-     * @return The booths toll total and count of trucks that have come to the tollbooth
      */
     @Override
     //public String displayData() {
     public void displayData() {
 
-        receipts += "Totals since last collection - Receipts: $" + totalToll + " Trucks: " + truckCounter;
-        System.out.println(receipts);
-        //return receipts;
-    }
-
-
-
-
-    /**
-     * When the cash drawer is removed from its cradle, the receipt is displayed on the screen.
-     * with the total tollbooth toll and number of trucks that came to the tollbooth
-     */
-
-    /*
-    public void cashDrawerRemoval() {
-        System.out.println("*** Collecting receipts ***");
+        //receipts += "Totals since last collection - Receipts: $" + totalToll + " Trucks: " + truckCounter;
         //System.out.println(receipts);
-        displayData();
-        resetData();
+        //return receipts;
+        System.out.println("Totals since last collection - Receipts: $" + totalToll + " Trucks: " + truckCounter);
     }
-    */
+
+
     /**
      * When a truck arrives at the booth, the agent scans a barcode on the windshield of the
      * truck; it contains information about the truck, including its number of axles. The weight of the
@@ -97,7 +87,7 @@ public class HammondTollBooth implements TollBoothType {
     /**
      * Calculates the total number of trucks that comes by the tollbooth
      */
-   @Override
+    @Override
     public void incrementTruckCount() {
         truckCounter++;
     }
@@ -105,20 +95,23 @@ public class HammondTollBooth implements TollBoothType {
     /**
      * Calculates the tollbooth's toll based on each truck's number of axles and weight
      * Calculates the tollbooth's total toll based on each truck's number of axles and weight
-     *
-     * @return The tollbooths toll total that was calculated after each truck has come to the tollbooth
      */
     @Override
     //public double calculateToll(int scannedAxles, int scannedWeight) {
     //public void calculateToll() {
     //public double calculateToll() {
-    public double calculateToll(TruckType truckType) {
+    public void calculateToll(TruckType truckType) {
         //scannedAxles = truckInfo.getAxles();
         //scannedWeight = truckInfo.getWeight();
 
         //tollDue = Math.floor(((scannedWeight/kgInTon) * tollPerTon ) + (scannedAxles * tollPerAxel));
         //tollDue = Math.floor(((truckInfo.getWeight() / kgInTon) * tollPerTon) + (truckInfo.getAxles() * tollPerAxel));
         //tollDue = ((truckInfo.getWeight() / kgInTon) * tollPerTon) + (truckInfo.getAxles() * tollPerAxel);
+
+        int kgInTon = 1000;
+        int tollPerAxel = 5;
+        int tollPerTon = 10;
+
         tollDue = (((truckType.getWeight() / kgInTon) * tollPerTon) + (truckType.getAxles() * tollPerAxel));
 
         //truckArrival();
@@ -126,7 +119,7 @@ public class HammondTollBooth implements TollBoothType {
         totalToll = tollDue + totalToll;
         incrementTruckCount();
 
-        return tollDue;
+        //return tollDue;
     }
 
     /**
