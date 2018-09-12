@@ -1,5 +1,5 @@
 //public class fordTruck extends Truck {
-public class fordTruck implements TruckType {
+public class fordTruck implements Trucks {
 
     /**
      * The amount of axles each truck has that's displayed on the tollbooth operator's computer screen

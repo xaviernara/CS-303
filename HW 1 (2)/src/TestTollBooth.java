@@ -3,9 +3,9 @@ public class TestTollBooth {
 
         //Truck truck1 = new fordTruck(5,12000);
         //Truck dodgeTruck = new dodgeTruck(5,12000);
-        TruckType dodgeTruck = new dodgeTruck(7,13000);
-        TruckType truck1 = new fordTruck(5,12000);
-        TruckType truck2 = new fordTruck(5,15000);
+        Trucks dodgeTruck = new dodgeTruck(7,13000);
+        Trucks truck1 = new fordTruck(5,12000);
+        Trucks truck2 = new fordTruck(5,15000);
 
 
         System.out.println("Axles 1- "+truck1.getAxles());
@@ -19,7 +19,7 @@ public class TestTollBooth {
 
         //tollBooth booth = new HammondTollBooth();
 
-        TollBoothType booth = new HammondTollBooth();
+        TollBooths booth = new HammondTollBooth();
         //System.out.println("calc toll: " + booth.calculateToll(truck1));
         booth.calculateToll(truck1);
         booth.calculateToll(truck2);

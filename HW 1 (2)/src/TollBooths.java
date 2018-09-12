@@ -1,4 +1,4 @@
-public interface TollBoothType {
+public interface TollBooths {
 
     /**
      * When the cash drawer is removed from its cradle, the receipt is displayed on the screen.
@@ -20,7 +20,7 @@ public interface TollBoothType {
      * truck; it contains information about the truck, including its number of axles. The weight of the
      * truck is obtained by scanning a barcode contained on the list of good presented by the driver.
      */
-    void truckArrival(TruckType truckType);
+    void truckArrival(Trucks truckType);
 
     /**
      * Calculates the total number of trucks that comes by the tollbooth
@@ -36,7 +36,7 @@ public interface TollBoothType {
 
     //public double calculateToll(int scannedAxles, int scannedWeight) {
     //public void calculateToll() {
-    void calculateToll(TruckType truckType);
+    void calculateToll(Trucks truckType);
 
     /**
      * Resets the total tollbooth toll and number of trucks that came by the tollbooth

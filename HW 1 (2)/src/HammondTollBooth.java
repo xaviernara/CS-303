@@ -1,6 +1,6 @@
 
 //public class HammondTollBooth extends tollBooth {
-public class HammondTollBooth implements TollBoothType {
+public class HammondTollBooth implements TollBooths {
 
 
     //private String receipts = "";
@@ -72,7 +72,7 @@ public class HammondTollBooth implements TollBoothType {
      * truck is obtained by scanning a barcode contained on the list of good presented by the driver.
      */
     @Override
-    public void truckArrival(TruckType truckType) {
+    public void truckArrival(Trucks truckType) {
         //System.out.println("Axles: "+truckInfo.getTotalAxles()+" Total weight: "+ truckInfo.getTotalWeight()+" Toll due: "+tollDue);
         //System.out.println("Axles: " + truckInfo.getAxles() + " Total weight: " + truckInfo.getWeight() + " Toll due: " + tollDue);
         //System.out.println("Truck arrival - Axles: " + truckInfo.getAxles() + " Total weight: " + truckInfo.getWeight() + " Toll due: " + tollDue);
@@ -100,7 +100,7 @@ public class HammondTollBooth implements TollBoothType {
     //public double calculateToll(int scannedAxles, int scannedWeight) {
     //public void calculateToll() {
     //public double calculateToll() {
-    public void calculateToll(TruckType truckType) {
+    public void calculateToll(Trucks truckType) {
         //scannedAxles = truckInfo.getAxles();
         //scannedWeight = truckInfo.getWeight();
 

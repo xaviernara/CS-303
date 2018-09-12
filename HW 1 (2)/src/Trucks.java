@@ -1,4 +1,4 @@
-public interface TruckType {
+public interface Trucks {
 
     int getAxles();
 
