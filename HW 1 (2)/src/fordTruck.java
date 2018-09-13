@@ -1,4 +1,3 @@
-//public class fordTruck extends Truck {
 public class fordTruck implements Trucks {
 
     /**
@@ -24,7 +23,6 @@ public class fordTruck implements Trucks {
 
 
     public fordTruck(int truckAxel, int truckWeight) {
-        //super(truckAxel, truckWeight);
         this.axles = truckAxel;
         this.weight = truckWeight;
     }

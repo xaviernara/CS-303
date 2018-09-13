@@ -12,7 +12,6 @@ public interface TollBooths {
      *
      * @return The booths toll total and count of trucks that have come to the tollbooth
      */
-    //String displayData();
     void displayData();
 
     /**
@@ -34,8 +33,6 @@ public interface TollBooths {
      * @return The tollbooths toll total that was calculated after each truck has come to the tollbooth
      */
 
-    //public double calculateToll(int scannedAxles, int scannedWeight) {
-    //public void calculateToll() {
     void calculateToll(Trucks truckType);
 
     /**
