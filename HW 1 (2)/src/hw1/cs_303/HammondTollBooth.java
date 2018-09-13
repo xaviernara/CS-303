@@ -30,8 +30,6 @@ public class HammondTollBooth implements TollBooths {
         System.out.println("*** Collecting receipts ***");
         displayData();
         resetData();
-
-
     }
 
     /**
@@ -79,8 +77,6 @@ public class HammondTollBooth implements TollBooths {
         int tollPerTon = 10;
 
         tollDue = (((truckType.getWeight() / kgInTon) * tollPerTon) + (truckType.getAxles() * tollPerAxel));
-
-
         totalToll = tollDue + totalToll;
         incrementTruckCount();
 
