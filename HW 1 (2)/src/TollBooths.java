@@ -9,8 +9,6 @@ public interface TollBooths {
 
     /**
      * Displays the tollbooth toll total and count of trucks that have come to the tollbooth
-     *
-     * @return The booths toll total and count of trucks that have come to the tollbooth
      */
     void displayData();
 
@@ -18,6 +16,8 @@ public interface TollBooths {
      * When a truck arrives at the booth, the agent scans a barcode on the windshield of the
      * truck; it contains information about the truck, including its number of axles. The weight of the
      * truck is obtained by scanning a barcode contained on the list of good presented by the driver.
+     *
+     * @param truckType The truck axl count and weight in kilograms
      */
     void truckArrival(Trucks truckType);
 
@@ -30,7 +30,7 @@ public interface TollBooths {
      * Calculates the tollbooth's toll based on each truck's number of axles and weight
      * Calculates the tollbooth's total toll based on each truck's number of axles and weight
      *
-     * @return The tollbooths toll total that was calculated after each truck has come to the tollbooth
+     * @param truckType The truck axl count and weight in kilograms
      */
 
     void calculateToll(Trucks truckType);

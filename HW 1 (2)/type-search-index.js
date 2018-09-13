@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"dodgeTruck"},{"p":"<Unnamed>","l":"fordTruck"},{"p":"<Unnamed>","l":"HammondTollBooth"},{"p":"<Unnamed>","l":"TestTollBooth"},{"p":"<Unnamed>","l":"TollBooths"},{"p":"<Unnamed>","l":"Trucks"}]

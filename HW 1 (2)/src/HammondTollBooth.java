@@ -17,8 +17,6 @@ public class HammondTollBooth implements TollBooths {
     private int truckCounter = 0;
 
 
-
-
     /**
      * When the cash drawer is removed from its cradle, the receipt is displayed on the screen.
      * with the total tollbooth toll and number of trucks that came to the tollbooth and resets
@@ -48,6 +46,8 @@ public class HammondTollBooth implements TollBooths {
      * When a truck arrives at the booth, the agent scans a barcode on the windshield of the
      * truck; it contains information about the truck, including its number of axles. The weight of the
      * truck is obtained by scanning a barcode contained on the list of good presented by the driver.
+     *
+     * @param truckType The truck axl count and weight in kilograms
      */
     @Override
     public void truckArrival(Trucks truckType) {
@@ -67,6 +67,8 @@ public class HammondTollBooth implements TollBooths {
     /**
      * Calculates the tollbooth's toll based on each truck's number of axles and weight
      * Calculates the tollbooth's total toll based on each truck's number of axles and weight
+     *
+     * @param truckType The truck axl count and weight in kilograms
      */
     @Override
     public void calculateToll(Trucks truckType) {
