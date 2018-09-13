@@ -1,3 +1,7 @@
+package hw1.cs_303;
+
+import hw1.cs_303.Trucks;
+
 public interface TollBooths {
 
     /**

@@ -1,3 +1,5 @@
+package hw1.cs_303;
+
 public class HammondTollBooth implements TollBooths {
 
     /**
@@ -38,7 +40,7 @@ public class HammondTollBooth implements TollBooths {
     @Override
     public void displayData() {
 
-        System.out.println("Totals since last collection - Receipts: $" + totalToll + " Trucks: " + truckCounter);
+        System.out.println("Totals since last collection - Receipts: $" + totalToll + " hw1.cs_303.Trucks: " + truckCounter);
     }
 
 

@@ -1,5 +1,6 @@
+package hw1.cs_303;
 
-public class dodgeTruck implements Trucks {
+public class fordTruck implements Trucks {
 
     /**
      * The amount of axles each truck has that's displayed on the tollbooth operator's computer screen
@@ -10,6 +11,7 @@ public class dodgeTruck implements Trucks {
      * The amount of weight each truck has that's displayed on the tollbooth operator's computer screen
      */
     private int weight;
+
 
     @Override
     public int getAxles() {
@@ -22,9 +24,9 @@ public class dodgeTruck implements Trucks {
     }
 
 
-    public dodgeTruck(int truckAxel, int truckWeight) {
+    public fordTruck(int truckAxel, int truckWeight) {
         this.axles = truckAxel;
         this.weight = truckWeight;
     }
-
 }
+
