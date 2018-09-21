@@ -57,6 +57,7 @@ public class SideCashRegister implements CashRegister {
 
     /**
      * Calculates the percentage of discount the customer desires for their item.
+     *
      * @param discount The provided discount from the customer.
      */
     @Override
@@ -103,7 +104,8 @@ public class SideCashRegister implements CashRegister {
                 discountPercentage = 0;
                 calculateSubTotal(discountPercentage);
                 break;
-            default: break;
+            default:
+                break;
         }
     }
 }

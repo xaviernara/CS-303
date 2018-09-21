@@ -23,13 +23,6 @@ public class FrontCashRegister implements CashRegister {
         this.unitPrice = unitPrice;
     }
 
-    /*
-    @Override
-    public double getTotal() {
-        return total;
-    }
-    */
-
     /**
      * Calculates the subtotal price after the discount have been calculated
      * and the unit price and quantity have been provided by the customer.
@@ -37,21 +30,14 @@ public class FrontCashRegister implements CashRegister {
      * @param discount The calculated discount percentage.
      */
     @Override
-    //public double calculateSubTotal(int quantity, double unitPrice) {
     public void calculateSubTotal(double discount) {
-        //System.out.println("sent discount: "+ discount);
-        //double subTotal = round(((unitPrice * quantity) - ((unitPrice * quantity) * discount)));
         double subTotal = ((unitPrice * quantity) - ((unitPrice * quantity) * discount));
         if (discount == 0) {
             subTotal = 0;
         }
         System.out.printf("Subtotal: $ %.2f \n", subTotal);
         calculateTotal(subTotal);
-        //return subTotal;
     }
-
-
-    //public double calculateTotal(int discount) {
 
     /**
      * Calculates the total price after the subtotal and discount have been calculated
@@ -63,7 +49,6 @@ public class FrontCashRegister implements CashRegister {
     public void calculateTotal(double subTotal) {
         total += subTotal;
         System.out.printf("Total: $ %.2f \n", total);
-        //return total;
     }
 
     @Override
@@ -79,7 +64,6 @@ public class FrontCashRegister implements CashRegister {
     @Override
     public void calculateDiscount(int discount) {
         double discountPercentage;
-        //System.out.printf("Discount: \n 1. 10%% \n 2. 20%% \n 3. 30%% \n 4. 40%% \n 5. 50%% \n 6. 60%% \n 7. 70%% \n 8. 80%% \n 9. 90%% \n 10. 100%%%n");
         switch (discount) {
             case 1:
                 discountPercentage = .10;
@@ -121,7 +105,8 @@ public class FrontCashRegister implements CashRegister {
                 discountPercentage = 0;
                 calculateSubTotal(discountPercentage);
                 break;
-            default: break;
+            default:
+                break;
         }
     }
 }

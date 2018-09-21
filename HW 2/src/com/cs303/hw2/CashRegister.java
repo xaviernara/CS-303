@@ -3,6 +3,7 @@ package com.cs303.hw2;
 public interface CashRegister {
 
     //double calculateSubTotal(int quantity, double unitPrice);
+
     /**
      * Calculates the subtotal price after the discount have been calculated
      * and the unit price and quantity have been provided by the customer.

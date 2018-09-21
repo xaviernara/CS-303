@@ -9,7 +9,6 @@ public class CashRegisterTest {
 
         boolean atTheRegister = true;
 
-        //while(atTheRegister){
         do {
             System.out.println("Unit Price ($):");
             double unitPrice = scanner.nextDouble();
@@ -24,45 +23,12 @@ public class CashRegisterTest {
             frontCashRegister.calculateDiscount(discount);
 
             System.out.println("If your ready to pay, type 'Yes'. If not type 'No'");
-            //checkOut = scanner.nextLine();
+
             if (scanner.next().equalsIgnoreCase("yes")) {
                 System.out.println("Thanks for shopping!!!");
                 atTheRegister = false;
-                //break;
-                //atTheRegister = false;
             }
-            /*
-            else if (scanner.nextLine().equals("No")) {
-
-
-                System.out.println("inside");
-               break;
-            }
-            */
         } while (atTheRegister);
-        //}
-
-        /*
-        System.out.println("If your ready to pay, type 'check out'");
-        String checkOut= scanner.nextLine();
-        continue;
-
-
-        if (!checkOut.equals("check out")){
-
-
-        }
-        else{
-            System.out.println("Thanks for shopping!");
-            //break;
-        }
-        //frontCashRegister.setCustomerQuantity(quantity);
-        //frontCashRegister.setUnitPrice(unitPrice);
-
-
-        //frontCashRegister.calculateSubTotal();
-
-        */
 
 
     }
