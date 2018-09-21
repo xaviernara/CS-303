@@ -2,6 +2,10 @@ package com.cs303.hw2;
 
 import java.util.Scanner;
 
+/**
+ * Main method for class testing.
+ *
+ */
 public class CashRegisterTest {
     public static void main(String[] args) {
         CashRegister frontCashRegister = new FrontCashRegister();
@@ -27,6 +31,8 @@ public class CashRegisterTest {
             if (scanner.next().equalsIgnoreCase("yes")) {
                 System.out.println("Thanks for shopping!!!");
                 atTheRegister = false;
+            }else{
+                System.out.println("Continue shopping");
             }
         } while (atTheRegister);
 

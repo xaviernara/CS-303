@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.cs303.hw2","l":"CashRegister"},{"p":"com.cs303.hw2","l":"CashRegisterTest"},{"p":"com.cs303.hw2","l":"FrontCashRegister"},{"p":"com.cs303.hw2","l":"SideCashRegister"}]
