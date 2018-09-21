@@ -12,6 +12,11 @@ public class dodgeTruck implements Trucks {
      */
     private int weight;
 
+    public dodgeTruck(int truckAxel, int truckWeight) {
+        this.axles = truckAxel;
+        this.weight = truckWeight;
+    }
+
     @Override
     public int getAxles() {
         return axles;
@@ -20,12 +25,6 @@ public class dodgeTruck implements Trucks {
     @Override
     public int getWeight() {
         return weight;
-    }
-
-
-    public dodgeTruck(int truckAxel, int truckWeight) {
-        this.axles = truckAxel;
-        this.weight = truckWeight;
     }
 
 }
