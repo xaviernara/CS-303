@@ -1,8 +1,14 @@
 package edu.pnw.cs303.hw3;
 
 public class Tie extends CosmeticsDecorator {
+    private Avatar avatar;
+
+    public Tie(Avatar avatar) {
+        this.avatar = avatar;
+    }
+
     @Override
-    public String addCosmetics() {
-        return null;
+    public String getCosmetics() {
+        return "Tie" + avatar.getCosmetics();
     }
 }

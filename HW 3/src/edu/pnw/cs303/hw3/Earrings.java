@@ -1,8 +1,15 @@
 package edu.pnw.cs303.hw3;
 
 public class Earrings extends CosmeticsDecorator {
-    @Override
-    public String addCosmetics() {
-        return null;
+    private Avatar avatar;
+
+    public Earrings(Avatar avatar) {
+        this.avatar = avatar;
     }
+
+    @Override
+    public String getCosmetics() {
+        return "Earrings" + avatar.getCosmetics();
+    }
+
 }

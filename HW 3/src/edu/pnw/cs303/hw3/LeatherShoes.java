@@ -1,8 +1,15 @@
 package edu.pnw.cs303.hw3;
 
 public class LeatherShoes extends CosmeticsDecorator {
+
+    private Avatar avatar;
+
+    public LeatherShoes(Avatar avatar) {
+        this.avatar = avatar;
+    }
+
     @Override
-    public String addCosmetics() {
-        return null;
+    public String getCosmetics() {
+        return "Leather Shoes" + avatar.getCosmetics();
     }
 }
