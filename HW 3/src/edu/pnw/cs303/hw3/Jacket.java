@@ -5,8 +5,10 @@ public class Jacket extends CosmeticsDecorator {
     private Avatar avatar;
 
     public Jacket(Avatar avatar) {
+        super();
         this.avatar = avatar;
     }
+
 
 
     @Override

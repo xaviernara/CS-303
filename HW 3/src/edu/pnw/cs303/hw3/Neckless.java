@@ -5,6 +5,7 @@ public class Neckless extends CosmeticsDecorator {
 
 
     public Neckless(Avatar avatar) {
+        super();
         this.avatar = avatar;
     }
 

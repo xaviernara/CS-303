@@ -4,6 +4,7 @@ public class Sunglasses extends CosmeticsDecorator {
     private Avatar avatar;
 
     public Sunglasses(Avatar avatar) {
+        super();
         this.avatar = avatar;
     }
 

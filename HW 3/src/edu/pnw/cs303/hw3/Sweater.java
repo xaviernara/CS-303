@@ -4,6 +4,7 @@ public class Sweater extends CosmeticsDecorator {
     private Avatar avatar;
 
     public Sweater(Avatar avatar) {
+        super();
         this.avatar = avatar;
     }
 

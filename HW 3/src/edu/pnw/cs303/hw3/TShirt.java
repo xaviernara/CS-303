@@ -4,6 +4,7 @@ public class TShirt extends CosmeticsDecorator {
     private Avatar avatar;
 
     public TShirt(Avatar avatar) {
+        super();
         this.avatar = avatar;
     }
 

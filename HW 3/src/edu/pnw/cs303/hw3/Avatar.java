@@ -2,7 +2,7 @@ package edu.pnw.cs303.hw3;
 
 public abstract class Avatar {
 
-    private String cosmetics;
+    private String cosmetics ="";
 
     private String gender = "";
 

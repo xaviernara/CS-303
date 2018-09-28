@@ -5,6 +5,8 @@ public class Shorts extends CosmeticsDecorator {
     private Avatar avatar;
 
     public Shorts(Avatar avatar) {
+
+        super();
         this.avatar = avatar;
     }
 

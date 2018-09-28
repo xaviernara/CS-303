@@ -8,8 +8,6 @@ public class RunningShoes extends CosmeticsDecorator {
     public RunningShoes(Avatar avatar) {
         super();
         this.avatar = avatar;
-
-
     }
 
     @Override
