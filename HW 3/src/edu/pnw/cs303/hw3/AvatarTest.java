@@ -3,6 +3,9 @@ package edu.pnw.cs303.hw3;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * The main menu for the player to decorate their male or female avatar with cosmetics
+ */
 public class AvatarTest {
 
     public static void main(String[] args) {
