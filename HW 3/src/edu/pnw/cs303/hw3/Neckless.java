@@ -1,15 +1,18 @@
 package edu.pnw.cs303.hw3;
 
+/**
+ * The Neckless Shoes cosmetics, the player can decorate their avatar with.
+ */
 public class Neckless extends CosmeticsDecorator {
     /**
-     * The avatar that will have the Neckless cosmetics equipped
+     * The avatar that will have the Neckless cosmetics equipped.
      */
     private Avatar avatar;
 
     /**
-     * The player has chosen to decorate their avatar with the Neckless cosmetics
+     * The player has chosen to decorate their avatar with the Neckless cosmetics.
      *
-     * @param avatar The avatar that will have the Neckless cosmetics equipped
+     * @param avatar The avatar that will have the Neckless cosmetics equipped.
      */
     public Neckless(Avatar avatar) {
         super();
@@ -17,9 +20,9 @@ public class Neckless extends CosmeticsDecorator {
     }
 
     /**
-     * Gets the equipped cosmetics the player has chosen for their avatar
+     * Gets the equipped cosmetics the player has chosen for their avatar.
      *
-     * @return The Neckless cosmetics a male or female avatar has equipped
+     * @return The Neckless cosmetics a male or female avatar has equipped.
      */
     @Override
     public String getCosmetics() {

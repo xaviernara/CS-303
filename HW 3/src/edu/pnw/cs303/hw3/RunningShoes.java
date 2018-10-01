@@ -1,15 +1,18 @@
 package edu.pnw.cs303.hw3;
 
+/**
+ * The Running Shoes Shoes cosmetics, the player can decorate their avatar with.
+ */
 public class RunningShoes extends CosmeticsDecorator {
     /**
-     * The avatar that will have the Running Shoes cosmetics equipped
+     * The avatar that will have the Running Shoes cosmetics equipped.
      */
     private Avatar avatar;
 
     /**
-     * The player has chosen to decorate their avatar with the Running Shoes cosmetics
+     * The player has chosen to decorate their avatar with the Running Shoes cosmetics.
      *
-     * @param avatar The avatar that will have the Running Shoes cosmetics equipped
+     * @param avatar The avatar that will have the Running Shoes cosmetics equipped.
      */
     public RunningShoes(Avatar avatar) {
         super();
@@ -17,9 +20,9 @@ public class RunningShoes extends CosmeticsDecorator {
     }
 
     /**
-     * Gets the equipped cosmetics the player has chosen for their avatar
+     * Gets the equipped cosmetics the player has chosen for their avatar.
      *
-     * @return The Running Shoes cosmetics a male or female avatar has equipped
+     * @return The Running Shoes cosmetics a male or female avatar has equipped.
      */
     @Override
     public String getCosmetics() {

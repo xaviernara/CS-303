@@ -29,45 +29,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="65" />
+          <entry key="java" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="65" />
+          <entry key="JAVA" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3248" />
+          <entry key="java" value="3598" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3248" />
+          <entry key="JAVA" value="3598" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HW 3" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/AvatarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="86" lean-forward="true" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Jeans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -75,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/LeatherShoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -84,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Sweater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="4" column="3" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -93,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Tie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="34">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -102,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/TShirt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -111,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Neckless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -120,8 +111,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/RunningShoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Avatar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -129,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Shorts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="34">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -138,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Sunglasses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="4" column="3" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -165,23 +165,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/AvatarTest.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Avatar.java" />
-        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Male.java" />
-        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Female.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/CosmeticsDecorator.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Earrings.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/HighHeels.java" />
+        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Female.java" />
+        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Male.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Jacket.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Jeans.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/LeatherShoes.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Neckless.java" />
-        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Shorts.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/RunningShoes.java" />
+        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Shorts.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Sunglasses.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Sweater.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Tie.java" />
         <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/TShirt.java" />
-        <option value="$PROJECT_DIR$/src/edu/pnw/cs303/hw3/AvatarTest.java" />
       </list>
     </option>
   </component>
@@ -229,7 +229,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538357950935" />
+    <property name="SearchEverywhereHistoryKey" value="javad&#9;PSI&#9;JAVA://jdk.javadoc.internal.tool.resources.javadoc" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538362863802" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -273,6 +274,15 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="937" extended-state="6" />
     <editor active="true" />
@@ -280,23 +290,23 @@
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5009276" side_tool="true" weight="0.12401434" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12401434" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Sequence" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49907234" visible="true" weight="0.12401434" />
+      <window_info id="Structure" order="6" sideWeight="0.5009276" side_tool="true" weight="0.12401434" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.329602" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.329602" />
+      <window_info anchor="bottom" id="Sequence" order="2" weight="0.6691542" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="CheckStyle" order="4" />
+      <window_info anchor="bottom" id="CheckStyle" order="4" weight="0.329602" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.329602" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.329602" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.329602" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.329602" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329602" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -318,141 +328,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Male.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/jdk.javadoc/jdk/javadoc/internal/tool/resources/javadoc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Avatar.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/AvatarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/CosmeticsDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Female.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Earrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Female.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Male.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/HighHeels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Jacket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Jeans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/LeatherShoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Neckless.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/RunningShoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Shorts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Sunglasses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="4" column="3" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Sweater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="4" column="3" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Tie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/TShirt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/AvatarTest.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/pnw/cs303/hw3/Avatar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="86" lean-forward="true" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
